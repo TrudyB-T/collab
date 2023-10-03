@@ -29,7 +29,7 @@ size_t tree_height(const heap_t *tree)
 
 /**
  * tree_size_h - measures the sum of heights of a binary tree
- * @tree: pointer to the root node of the tree for height measuring 
+ * @tree: pointer to the root node of the tree for height measuring
  *
  * Return: Height or 0 if tree is NULL
  */
@@ -101,7 +101,7 @@ void heapify(heap_t *root)
 				tempb = tempa->right;
 		}
 		if (tempa->n > tempb->n)
-  			break;
+			break;
 		num = tempa->n;
 		tempa->n = tempb->n;
 		tempb->n = num;

@@ -89,8 +89,10 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
  *        you will removea node
  * @value: value to remove in the tree
  *
- * Return:  a pointer to the new root node of the tree after removing            the desired value
+ * Return:  a pointer to the new root node of the tree
+ *          after removing the desired value
  */
+
 bst_t *bst_remove(bst_t *root, int value)
 {
 	return (bst_remove_recursive(root, root, value));

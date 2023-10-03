@@ -91,7 +91,8 @@ avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent,
 
 /**
  * avl_insert - Inserts a value in an AVL tree
- * @tree: double pointer to the root node of the AVL tree for inserting the value
+ * @tree: double pointer to the root node of the AVL tree
+ *        for inserting the value
  * @value: value to insert into the AVL tree.
  *
  * Return:pointer to the created node, or NULL on failure.
